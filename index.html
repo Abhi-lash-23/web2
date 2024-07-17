@@ -11,7 +11,7 @@
     
    
         .nav{
-            background:rgb(148, 237, 170);
+            background:rgb(203, 250, 215);
         }
         .nav-img{
             display: flex;
@@ -25,6 +25,29 @@
         .heading{
             font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
         }
+        .h2{
+        text-align:center;
+        }
+        .one-home-menu{
+          position:relative;
+          
+        }
+
+        .overlay-text {
+    position: absolute;
+    text-align: center;
+    bottom: 15%;
+    left:0;
+    right:20px;
+    text-decoration:underline;
+    
+    color: #dcead5;
+    font-weight:bold;
+    font-size: large;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
         .footer{
             background: #ebdfc3;
         }
@@ -43,6 +66,10 @@
         .foot-img{
           width: 150px;
           border-radius: 80px;
+        }
+        .link a{
+          text-decoration: none;
+          color: black;
         }
     </style>
 </head>
@@ -80,9 +107,9 @@
         </div>
     </nav>
     <section id="Home">
-    <h2>Best sellers</h2></h1><br>
-    <div class="container text-center">
-        <div class="row">
+    <h2 class="h2 my-2" style="display:flexbox;">Best sellers</h2></h1><br>
+    <div class="container text-center ">
+        <div class="row  mx-2">
           <div class="col my-2">
             <div class="card" style="width: 18rem;">
                 <img src="https://pistahouse.in/cdn/shop/files/PistaDateRoll-Product1under200KB.jpg?crop=center&height=360&v=1710074149&width=360" class="card-img-top" alt="...">
@@ -121,15 +148,15 @@
       <button type="button" class="btn  btn-sl">Next></button>
       </div>
 
-      <div class="container text-center p-5  container-fluid">
+      <div class="container-fluid text-center p-2 " >
         <div class="grid ">
         <div class="row">
-          <div class="col-md-6 my-2">
+          <div class="col-md-6 my-5">
             <img src="https://pistahouse.in/cdn/shop/files/Baklava.png?v=1710321879&width=840" alt="img" class="img-fluid imgs">
-           
           </div>
+          
         
-          <div class="col-md-6">
+          <div class="col-md-5 my-5">
             <img src="https://pistahouse.in/cdn/shop/files/Sweets.png?v=1710321878&width=840" alt="img" class="img-fluid imgs">
            
           </div>
@@ -149,7 +176,63 @@
                     <p>For over twenty years, we’ve honoured the essence of tradition, infusing each dish with our passion and authentic flavours since 1997.What began as a humble endeavour has evolved into a culinary institution, renowned for our commitment to preserving the essence of Hyderabadi cuisine. At Pista House, we don’t just serve food, we curate experiences that linger in the memory long after the last bite.Our secret? It lies in the meticulous craftsmanship that goes into every dish, from our world-famous Haleem to the iconic Biryani that melts in your mouth. Each recipe is a testament to generations of culinary expertise, passed down through our family with care and reverence.</p>
                 </div>
             </section>
+            
+            <div class="container-fluid text-center" style="background-color: #dcead5;">
+              <div class="row" >
+                <div class="col my-2"><img src="fresh.png" alt="img" class="img-fluid" style="width: 25%;">
+                  <h5>Freshness Guaranteed</h5>
+                </div>
+                <div class="col my-2"><img src="serving-dish.png" alt="img" class="img-fluid " style="width: 25%;">
+                <h5>Authentic Recipes</h5></div>
+                <div class="col my-2"><img src="free-delivery.png" alt="img" class="img-fluid" style="width: 25%;">
+                <h5>Free Delivery</h5></div>        
+                <div class="col my-2"><img src="certified.png" alt="img" class="img-fluid" style="width: 25%;">
+                <h5>Certified Ingredients</h5></div>
+              </div>
+            </div><br>
       <!--footer-->
+
+
+
+      <!--CARDS-->
+      <div class="row align-items-center justify-content-center mx-auto ">
+        <div class="col-lg-2 col-md-4 col-sm-4 my-2">
+<div class="one-home-menu">
+        <img src="https://adachirestaurant.com/wp-content/uploads/2020/11/adach-delivery-min.jpg" alt="" class="img-fluid" style="border-radius: 5%;">
+        <div class="overlay-text">Delivery Menu</div>
+</div>
+</div>
+        <div class="col-lg-2 col-md-4 col-sm-4 my-2">
+<div class="one-home-menu">
+   
+        <img src="https://adachirestaurant.com/wp-content/uploads/2020/11/adachi-dinner-menu-min.jpg" alt="" class="img-fluid" style="border-radius: 5%;">
+        <div class="overlay-text">Dining Menu</div>
+</div>
+</div>
+        <div class="col-lg-2 col-md-4 col-sm-4 my-2 ">
+<div class="one-home-menu">
+   
+        <img src="https://adachirestaurant.com/wp-content/uploads/2020/11/home-menu.jpg" alt="" class="img-fluid" style="border-radius: 5%;">
+        <div class="overlay-text">Drink Menu</div>
+</div>
+</div>
+        <div class="col-lg-2 col-md-4 col-sm-4 my-2">
+<div class="one-home-menu">
+    
+        <img src="https://adachirestaurant.com/wp-content/uploads/2020/11/adachi-happy-hour-min.jpg" alt="" class="img-fluid" style="border-radius: 5%;">
+        <div class="overlay-text">Happy Hour</div>
+</div>
+</div>
+<div class="col-lg-2 col-md-4 col-sm-4 my-2">
+<div class="one-home-menu">
+  
+      <img src="https://adachirestaurant.com/wp-content/uploads/2020/11/adachi-dessert-menu-min.jpg" alt="" class="img-fluid" style="border-radius: 5%;">
+      <div class="overlay-text">Delivery Menu</div>
+  </div>  
+    </div>
+    </div>
+
+      <!--CARDS END-->
 
       <div class="card footer">
         <div class="card-header">
@@ -158,14 +241,16 @@
         <div class="card-body">
             <img src="Famous.png" alt="img"  class="img-fluid foot-img">
 
-            <div class="container text-center">
+            <div class="container-fluid text-center">
                 <div class="row">
                   <div class="col">
                     <h5 class="">Quick links</h5>
+                    <div class="link">
                 <a href="#Home"><p>Home</p></a>
                 <a href="newlogin.html"><p>Account</p></a>
                 <a href="contact.html"><p>contact</p></a>
                 <a href="#About"><p>About</p></a>
+                </div>
               
                   </div>
                   <div class="col">
